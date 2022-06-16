@@ -8,18 +8,18 @@ This page aims to document the current plans for the future version of Pygame Co
 This project will be a complete rewrite of [`PygameCommunityBot`](https://github.com/pygame-community/PygameCommunityBot) that aims to address its predecessor's known problems and limitations by starting with a modular, guild-agnostic design from the ground up, paired with many quality-of-life server management features and cool abilites. The codebase will be separated into two main repositories, with [**`pcbheart`**](https://github.com/pygame-community/pcbheart) implementing functionality for Pygame Community Discord and [**`PygameBot`**](https://github.com/pygame-community/PygameBot) implementing utilites and commands related to running `pygame` code on Discord. 
 
 ## Planned features
+These features will be implemented with support for the newest APIs provided by Discord and newest versions of the [`discord.py`](https://github.com/Rapptz/discord.py) library, which include Interaction-based Application Commands (AKA Slash Commands) and Message Components (e.g. Select Menus, Buttons, Modals, etc.).
 
-### Within Servers
-- **Rich Message/Embed Manipulation**
-- **Channel & Thread Message Archiving**
-- **Documentation Command with Custom Retrieval Workflow Support**
-- **Polling & Voting System**
+### Client Side
+- **Rich Message/Embed Manipulation Features**
+- **Channel & Thread Message Archiving Features**
+- **Documentation Command Feature with Custom Retrieval Workflow Support**
+- **Polling & Voting Features**
 - **Command Rate-Limiting, Concurrency Limits, Cooldowns**
-- **Reminders**
-- **Slash Commands**
-- **Flexible Command Override System (Alongside Discord's PermsV2)**
+- **Reminder Feature**
+- **Flexible Command Override Features (Alongside Discord's PermsV2)**
 
-### Backend
+### Server Side
 - **SQLite DB support**
 
 ## Deprecations and removals
