@@ -18,6 +18,7 @@ These features will be implemented with support for the newest APIs provided by 
 - **Command Rate-Limiting, Concurrency Limits, Cooldowns**
 - **Reminder Feature**
 - **Flexible Command Override Features (Alongside Discord's PermsV2)**
+- **Extensive Bot Logging Features**
 
 ### Server Side
 - **SQLite DB support**
@@ -25,6 +26,6 @@ These features will be implemented with support for the newest APIs provided by 
 ## Deprecations and removals
 ## Future roadmap
 - **PostgreSQL DB backend**
-- **Scheduled server interactions**
+- **Scheduled bot operations**
 - **Sandboxed `pygame` code execution**
 
