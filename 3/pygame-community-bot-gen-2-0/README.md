@@ -28,4 +28,5 @@ These features will be implemented with support for the newest APIs provided by 
 - **PostgreSQL DB backend**
 - **Scheduled bot operations**
 - **Sandboxed `pygame` code execution**
-
+- **Information tagging commands & source channel feature**
+- **Information resource system with tagging, source channel and command-based lookup**
